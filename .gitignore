@@ -1,0 +1,21 @@
+# KiCad temporary / local files
+~*.lck
+_autosave-*
+*-backups/
+_restore_backup_*/
+*.kicad_prl
+
+# Recovery files
+*.recovered.*.kicad_pcb
+*.recovered.*.kicad_sch
+
+# Editor / OS files
+.history/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Generated manufacturing outputs
+output/
