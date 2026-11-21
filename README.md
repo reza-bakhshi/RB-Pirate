@@ -15,9 +15,17 @@ RB-Pirate helps developers, makers, and hardware enthusiasts communicate with,
 analyze, and debug electronic devices directly from a terminal. With the matching firmware, it provides serial-bus interaction, logic capture,
 voltage measurement, configurable target power, and hardware automation.
 
-RB-Pirate is an independent hardware project based on the
-[Bus Pirate 6 architecture](https://docs.buspirate.com/docs/hardware/bp6rev2/introduction/)
-created by [Dangerous Prototypes](https://dangerousprototypes.com/).
+## Hardware inspiration and firmware authorship
+
+The RB-Pirate hardware was designed by **Reza Bakhshi**, inspired by the
+[Bus Pirate 6 hardware](https://docs.buspirate.com/docs/hardware/bp6rev2/introduction/)
+from [Dangerous Prototypes](https://dangerousprototypes.com/).
+
+The **[RB-Pirate firmware](https://github.com/reza-bakhshi/RB-Pirate-Firmware)**
+was written from scratch by Reza Bakhshi with a new, custom architecture.
+The hardware inspiration and firmware authorship are separate: Bus Pirate
+is the hardware reference, while RB-Pirate has its own firmware implementation.
+Third-party libraries and components retain their respective credits and licenses.
 
 ## Start here
 
