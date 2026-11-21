@@ -12,14 +12,26 @@
 </div>
 
 RB-Pirate helps developers, makers, and hardware enthusiasts communicate with,
-analyze, and debug electronic devices directly from a terminal. It can explore
-serial buses, inspect unknown interfaces, capture logic activity, measure signal
-voltages, safely power target circuits, work with memory devices and sensors,
-and automate common hardware tasks.
+analyze, and debug electronic devices directly from a terminal. With the matching firmware, it provides serial-bus interaction, logic capture,
+voltage measurement, configurable target power, and hardware automation.
 
 RB-Pirate is an independent hardware project based on the
 [Bus Pirate 6 architecture](https://docs.buspirate.com/docs/hardware/bp6rev2/introduction/)
 created by [Dangerous Prototypes](https://dangerousprototypes.com/).
+
+## Start here
+
+This repository contains the KiCad hardware design. Open [RB-Pirate.kicad_pro](RB-Pirate.kicad_pro) to inspect the schematic and PCB together.
+
+| Resource | Contents |
+|---|---|
+| [RB-Pirate.kicad_sch](RB-Pirate.kicad_sch) | Schematic entry point |
+| [RB-Pirate.kicad_pcb](RB-Pirate.kicad_pcb) | PCB layout |
+| [img](img) | Board renders |
+| [Custom firmware](https://github.com/reza-bakhshi/RB-Pirate-Firmware) | Build, flashing, terminal operation, and protocol guides |
+| [Host automation](https://github.com/reza-bakhshi/RB-Pirate-Skill) | Python serial runner and agent reference material |
+
+Firmware determines which protocol modes and tools are available. RF, infrared, and NFC workflows require the corresponding external hardware; those modules are not built into the base board.
 
 ## PCB gallery
 
